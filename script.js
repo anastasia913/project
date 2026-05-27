@@ -22,6 +22,7 @@ function check(event) {
 
     if (levels[currentLevel].video) {
       video.children[0].src = levels[currentLevel].video;
+      video.poster = "";
       video.load();
     }
   } else {
